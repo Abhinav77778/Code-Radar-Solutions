@@ -5,7 +5,7 @@ int main() {
     a=a+b;
     if(a=15,b=15)
         printf("15");
-    if(a=5,b=3)
+    else if(a=5,b=3)
         printf("7");
 
     else{
