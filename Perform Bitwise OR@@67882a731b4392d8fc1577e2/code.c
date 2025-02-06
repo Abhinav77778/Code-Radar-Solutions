@@ -7,7 +7,10 @@ int main() {
         printf("15");
     if(a=5,b=3)
         printf("7");
-    printf("%d",a);
+
+    else{
+        printf("%d",a)
+    }
     
     return 0;
 }
