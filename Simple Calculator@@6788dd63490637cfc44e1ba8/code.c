@@ -12,9 +12,9 @@ int main() {
     else if(c=='/')
         a=a/b;
         printf("%d",a);
-    else{
+    else if(c=='-')
         a=a*b
         printf("%d",a);
-    }
+    
     return 0;
 }
